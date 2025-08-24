@@ -1,89 +1,70 @@
-AtliQ Sales Insights – Power BI Dashboard
+# AtliQ Sales Insights – Power BI Dashboard
 
-This project is a replication from Codebasics' Power BI YouTube Playlist, built to analyze and visualize AtliQ Hardware’s sales performance using SQL and Power BI.
+## 📌 Project Overview
+This project replicates the **Codebasics Power BI Sales Insights** case study. It focuses on building an **interactive sales dashboard** for AtliQ Hardware to enable **data-driven decision making** and improve business performance.  
 
-Codebasics Playlist
+- **Tech Stack:** Power BI, SQL  
+- **Domain:** Sales & Business Analysis  
 
-Live Report Link
+---
 
-Problem Statement
+## 🏢 Problem Statement
+AtliQ Hardware, a computer hardware and peripherals manufacturer with branches across India, was facing:  
+- Declining and unpredictable sales.  
+- Difficulty tracking regional performance due to scattered Excel reports.  
+- Lack of clarity for the Sales Director to make timely business decisions.  
 
-AtliQ Hardware is a computer hardware & peripherals supplier with multiple branches across India.
-The Sales Director faced the following challenges:
+---
 
-Lack of clear visibility into sales performance.
+## 💡 Solution
+A **Power BI dashboard** was created to provide clear and actionable insights:  
+- Connected and analyzed raw sales data from SQL Server.  
+- Transformed and cleaned data within Power BI.  
+- Unified multiple currencies and created custom DAX measures.  
+- Built interactive visuals for **Revenue, Sales Quantity, Market Performance, and Profit Trends**.  
 
-Sales declining gradually.
+The dashboard helps stakeholders **identify top-performing regions, customers, and products** while highlighting areas needing improvement.
 
-Regional managers providing sugar-coated updates and sending multiple Excel sheets, making it hard to extract insights.
+---
 
-Solution
+## 🎯 AIMS Grid (Project Goals)
+- **Purpose:** Provide a single source of truth for sales performance.  
+- **Stakeholders:** Sales Director, Regional Managers, Data Team.  
+- **End Result:** Interactive, drill-down Power BI dashboard.  
+- **Success Criteria:** Data-driven decisions leading to improved sales strategies.  
 
-To enable data-driven decision-making, the Sales Director decided to implement an interactive Power BI dashboard.
-Key steps included:
+---
 
-Using SQL for high-level data analysis.
+## 🛠 Steps Followed
+1. Performed exploratory analysis in SQL to understand key metrics.  
+2. Connected SQL dataset to Power BI.  
+3. Cleaned and transformed data (ETL).  
+4. Standardized currencies for consistency.  
+5. Created DAX measures for KPIs and visuals.  
+6. Incorporated stakeholder feedback to refine the dashboard.
 
-Connecting the cleaned dataset to Power BI.
+---
 
-Visualizing key KPIs to monitor business health effectively.
+## 📊 Key Insights
+- Revenue trends by region and product.  
+- Top-performing customers and products.  
+- Profitability analysis to identify business gaps.  
+- Currency-adjusted global sales metrics.  
 
-AIMS Grid
+---
 
-Using the AIMS (Aim, Inputs, Method, Success) grid framework, we defined:
+## 🔗 Resources
+- **Codebasics Playlist:** [Click Here](https://youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9&si=K4X4EvydDV_vv3Wg)  
+- **Live Dashboard:** *[ https://lnkd.in/gKVR8h2G]*  
 
-Purpose: Understand sales performance & problem areas.
+---
 
-Stakeholders: Sales Director, Regional Managers, BI Team.
+## 🚀 Final Outcome
+The Sales Insights Dashboard enabled AtliQ Hardware to:  
+- Move away from static Excel reports.  
+- Quickly identify performance bottlenecks.  
+- Make **data-backed strategic decisions**.
 
-End Result: Interactive dashboard with actionable insights.
+---
 
-Success Criteria: Easy interpretation of data and improved decision-making.
-
-Project Workflow
-
-Data Analysis in SQL – Performed high-level queries to understand trends.
-
-Data Connection – Imported SQL dataset into Power BI.
-
-ETL Process – Cleaned & transformed data inside Power BI.
-
-Currency Conversion – Standardized multiple currencies for consistency.
-
-DAX Measures – Created calculated fields for KPIs and visuals.
-
-Stakeholder Review – Incorporated feedback and improved visuals.
-
-Dashboard Highlights
-
-Initial Dashboard: Draft version for stakeholder feedback.
-
-Updated Dashboard: Enhanced visuals & KPIs after review.
-
-Interactive Dashboard: Final version with drill-throughs & slicers.
-
-Key Insights Delivered
-
-Regional and product-level sales performance.
-
-Yearly and monthly sales trends.
-
-Identification of low-performing areas.
-
-Revenue contribution by regions and customers.
-
-Tech Stack
-
-SQL: For data querying & preprocessing.
-
-Power BI: For visualization and report building.
-
-DAX: For calculated measures & KPIs.
-
-How to Use
-
-Download the .pbix file from this repository.
-
-Replace the SQL data source with your local database (if required).
-
-Explore the interactive visuals and filters.
+### Author: Suchitha Kamarapu
